@@ -1,8 +1,9 @@
 <br>
 
-## 프로젝트명
-+ 명세 1
-+ 명세 2<br><br><br>
+## Hello Here?
++ 감정 일기장
++ Spring mvc 기반
++ Chrome 최적화<br><br><br>
 
 
 ## 구현된 기능
