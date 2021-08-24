@@ -11,9 +11,9 @@
 <meta charset="UTF-8">
 
 <link rel="stylesheet" href="/css/global.css">
-<link rel="stylesheet" href="/css/userHome.css">
+<link rel="stylesheet" href="/css/userMain.css">
 
-<script src="/js/userHome.js"></script>
+<script src="/js/userMain.js"></script>
 
 <title>로그인</title>
 

@@ -11,13 +11,13 @@
 <meta charset="UTF-8">
 
 <link rel="stylesheet" href="/css/global.css">
-<link rel="stylesheet" href="/css/userMain.css">
+<link rel="stylesheet" href="/css/member.css">
 
 <script src="/js/global.js"></script>
-<script src="/js/userMain.js"></script>
+<script src="/js/member.js"></script>
 
 <style>
-	#menu1, #menu1Mini{
+	#menu4, #menu4Mini{
 		opacity: 1.0 !important;
 		color: #e8a798 !important;
 		box-shadow: 2px 1px #e8a798; !important;
@@ -36,14 +36,27 @@
 
 	<div id="totalBox">
 	
-		<%@include file="menu.jsp" %>
+		<%@include file="../menu.jsp" %>
 		
 		<div id="contentBox">
-			<div class="content">내용 1</div>
-			<div class="content">내용 2</div>
+			
+			<table cellspacing="0" id="myInforTable">
+				<tr>
+					<td>이메일</td>
+					<td>123@naver.com</td>
+					<td>수정</td>
+				</tr>
+				<tr>
+					<td>별명</td>
+					<td>까치</td>
+					<td>수정</td>
+				</tr>
+			</table>
+			
+			
 		</div>
 		
-		<%@include file="footer.jsp" %>
+		<%@include file="../footer.jsp" %>
 		
 	</div>
 

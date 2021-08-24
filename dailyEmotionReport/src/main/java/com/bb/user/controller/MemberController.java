@@ -18,6 +18,24 @@ public class MemberController {
 		return "main";
 	}
 	
+	@RequestMapping("home")
+	public String memberhome() {
+		
+		return "main";
+	}
+
+	@RequestMapping("myInfor")
+	public String membermyInfor() {
+		
+		return "/member/userInfor";
+	}
+	
+	@RequestMapping("myStatics")
+	public String membermyStatics() {
+		
+		return "/member/userStatics";
+	}
+	
 	
 	
 }

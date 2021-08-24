@@ -1,0 +1,84 @@
+
+/* user main 과 index 적용 css */
+
+@charset "UTF-8";
+
+
+
+/* index page */
+#loginLayout{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:300px;
+	height:150px;
+	text-align:center;
+}
+
+#loginLayout input{
+	margin: 5px 5px 5px 5px;
+	font-size:17px;
+	width:299px;
+}
+
+#loginLayout input:focus{
+	outline: 2.5px solid #e8a798;
+}
+
+#loginLayout a{
+	cursor:pointer;
+}
+
+#loginLayout a:hover{
+	color: #e8a798;
+	font-weight:bold;
+	transition: 0.4s;
+}
+
+
+
+
+
+/* main page의 content 디자인 */
+
+#contentBox{
+	width:100%;
+	padding:0px 5px 5px 5px;
+	height:800px;
+	overflow-y:auto;
+	background-color:#ffffff;
+	box-shadow: 2px 1px #e8a798;
+}
+
+.content:hover{
+	opacity: 1.0;
+	font-weight:bold;
+	color: #e8a798;
+ 	transition: 0.4s;
+ 	border-bottom: solid 1px #e8a798;
+}
+
+.content{
+	color: #b1b3b4;
+	background-color:#ffffff;
+	margin: 5px 5px 5px 5px;
+	cursor:pointer;
+	font-size:17px;
+	padding:5px 5px 5px 5px;
+	width:99%;
+	text-align:center;
+	border-bottom: solid 1px #a6a6a6;
+}
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+	
+
+	
+		
+}

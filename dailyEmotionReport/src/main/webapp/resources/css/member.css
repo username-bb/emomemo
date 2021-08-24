@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+/* userinfo page의 content 디자인 */
+
+#contentBox{
+	width:100%;
+	padding:0px 5px 5px 5px;
+	height:800px;
+	overflow-y:auto;
+	background-color:#ffffff;
+	box-shadow: 2px 1px #e8a798;
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+/*
+.content:hover{
+	opacity: 1.0;
+	font-weight:bold;
+	color: #e8a798;
+ 	transition: 0.4s;
+ 	border-bottom: solid 1px #e8a798;
+}
+
+.content{
+	color: #b1b3b4;
+	background-color:#ffffff;
+	margin: 5px 5px 5px 5px;
+	cursor:pointer;
+	font-size:17px;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	border-bottom: solid 1px #a6a6a6;
+}
+*/
+
+
+
+/* user infor page의 user infor table 디자인 */
+
+#myInforTable td{
+	color: #737373;
+	font-size:17px;
+	padding:5px 5px 5px 5px;
+	border: dotted 1px #a6a6a6;
+	text-align:center;
+	
+}
+
+#myInforTable{
+	width:100%;
+	height:100px;
+	margin: 5px 1px 1px 1px;
+}
+
+
+/* user Statics page의 차트 */
+
