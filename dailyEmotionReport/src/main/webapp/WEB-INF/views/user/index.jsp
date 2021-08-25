@@ -25,7 +25,7 @@
 		<form name="userLogin" action="/member/login">
 			<p><b>Hello, Here?</b></p>
 			<input type="text" name="email" placeholder="이메일" required maxlength="15" ><br>
-			<input type="text" name="pw" placeholder="비밀번호" required maxlength="15"><br>
+			<input type="password" name="pw" placeholder="비밀번호" required maxlength="15"><br>
 			<input type="submit" value="로그인">
 			<a>회원가입</a> / <a>비밀번호 찾기</a>
 		</form>		

@@ -41,26 +41,11 @@
 			<div id="contentBoxPosition">
 		
 				<div class="content" id="content1">
-					
-					<table cellspacing="0" id="myInforTable">
-						<tr>
-							<td>이메일</td>
-							<td>123@naver.com</td>
-							<td class="modifyTd">수정</td>
-						</tr>
-						<tr>
-							<td>별명</td>
-							<td>까치</td>
-							<td class="modifyTd">수정</td>
-						</tr>
-						<tr>
-							<td>비밀번호</td>
-							<td><input type="password" maxlength="15"></td>
-							<td class="modifyTd">수정</td>
-						</tr>
-					</table>
-					
-					
+					<p id="miniTitle"><b>Hello, Here?</b></p>
+					<form name="pwCheckPlz" action="/member/myInfor">
+						<input type="password" name="pw" placeholder="비밀번호" required maxlength="15">
+						<input type="submit" value="인증" >
+					</form>					
 				</div>
 			</div>
 		</div>

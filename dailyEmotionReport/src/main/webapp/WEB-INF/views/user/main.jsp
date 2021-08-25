@@ -39,8 +39,22 @@
 		<%@include file="menu.jsp" %>
 		
 		<div id="contentBox">
-			<div class="content">내용 1</div>
+			
+			<div class="content" id="writeButton">작성</div>
+			
+			<div class="content" id="content1">내용 1</div>
 			<div class="content">내용 2</div>
+			<div class="content">내용 3</div>
+			<div class="content">내용 4</div>
+			<div class="content">내용 5</div>
+			<div class="content">내용 6</div>
+			<div class="content">내용 7</div>
+			<div class="content">내용 8</div>
+			<div class="content">내용 9</div>
+			<div class="content">내용 10</div>
+			
+			<div class="content" id="nextButton">이전으로</div>
+			<div class="content" id="prevButton">다음으로</div>
 		</div>
 		
 		<%@include file="footer.jsp" %>

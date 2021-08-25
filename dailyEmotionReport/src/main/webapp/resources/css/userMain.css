@@ -71,8 +71,23 @@
 	border-bottom: solid 1px #a6a6a6;
 }
 
+#writeButton, #nextButton, #prevButton{
+	width:80px;
+	margin-left:auto;
+	border: dotted 1px #a6a6a6;
+}
 
+#writeButton:hover, #nextButton:hover, #prevButton:hover{
+	border: dotted 1px #e8a798;
+	box-shadow: 2px 1px #e8a798;
+}
 
+#nextButton, #prevButton{
+	display:inline-block;
+	float:right;
+	margin-top:290px;
+	margin-left:6px;
+}
 
 
 

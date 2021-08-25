@@ -1,19 +1,37 @@
 @charset "UTF-8";
 
 
-/* userinfo page의 content 디자인 */
+/* user page에서 사용하는 공통된 content 디자인 */
 
-#contentBox{
+
+
+
+#contentBoxFlex{
 	width:100%;
-	padding:0px 5px 5px 5px;
 	height:800px;
+	padding:0px 5px 5px 5px;
+	
 	overflow-y:auto;
+	overflow-x:hidden;
+	
 	background-color:#ffffff;
 	box-shadow: 2px 1px #e8a798;
 	
+	position:relative;
+	
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	flex-wrap:wrap;
+	
+}
+
+#contentBoxPosition{
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	width:100%;
 }
 
 /*
@@ -24,18 +42,73 @@
  	transition: 0.4s;
  	border-bottom: solid 1px #e8a798;
 }
+ */
 
 .content{
-	color: #b1b3b4;
+	color: #737373;
 	background-color:#ffffff;
-	margin: 5px 5px 5px 5px;
-	cursor:pointer;
+	margin: 5px 5px 5px 0px;
 	font-size:17px;
 	padding:5px 5px 5px 5px;
 	text-align:center;
-	border-bottom: solid 1px #a6a6a6;
+	width:80%;
+	max-width: 810px;
+	margin-left:50%;
+	transform:translate(-50%, 0);
 }
-*/
+
+
+/* user statics에서 사용하는 content 디자인 */
+
+#content1{
+	top:50%;
+}
+
+#content2{
+	overflow-x:auto;
+}
+
+#content3{
+	padding-top:0px !important;
+	margin-top:0px !important;
+}
+
+
+
+/* user statics에서 사용하는 emotion table 디자인 */
+
+#emotionTable{
+	width:100%;
+}
+
+#emotionTable thead{
+	background-color: #f5dbd6;
+	font-weight:bold;
+}
+
+#emotionTable td{
+	color: #737373;
+	border: dotted 1px #a6a6a6;
+}
+
+#emotionTable td{
+	color: #737373;
+	border: dotted 1px #a6a6a6;
+}
+
+
+/* user inforCheck page의 디자인 */
+
+#content1 input{
+	display: inline-block;
+}
+
+#miniTitle{
+	font-size:18px;
+	color:#e8a798;
+	margin-bottom:5px;
+}
+
 
 
 
@@ -47,7 +120,7 @@
 	padding:5px 5px 5px 5px;
 	border: dotted 1px #a6a6a6;
 	text-align:center;
-	
+	height: 40px;
 }
 
 #myInforTable{
@@ -56,6 +129,32 @@
 	margin: 5px 1px 1px 1px;
 }
 
+.modifyTd:hover{
+	font-weight:bold;
+	color: #e8a798 !important;
+ 	transition: 0.4s;
+ 	cursor:pointer;
+}
 
-/* user Statics page의 차트 */
 
+
+/* user Book page의 img 디자인 */
+
+.bookImg{
+	width: 300px;
+	margin-top:5px;
+}
+
+/* user Book page의 content 디자인 */
+
+
+#content1 h3{
+	color:#e8a798;	
+}
+
+#content4 a{
+	text-decoration:none;
+	cursor:pointer;
+	color: #e8a798;
+	font-weight:bold;
+}

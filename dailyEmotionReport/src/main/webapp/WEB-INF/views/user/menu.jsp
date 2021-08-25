@@ -15,10 +15,10 @@
 		통계	
 	</div>
 	
-	<div class="menuList" id="menu3">
+	<div class="menuList" id="menu3" onclick="location.href='/member/myBook'">
 		추천 서적	
 	</div>
-	<div class="menuList" id="menu4" onclick="location.href='/member/myInfor'">
+	<div class="menuList" id="menu4" onclick="location.href='/member/myInforCheck'">
 		내 정보
 	</div>
 </div>
@@ -40,10 +40,10 @@
 		통계	
 	</div>
 	
-	<div class="menuListMini" id="menu3Mini">
+	<div class="menuListMini" id="menu3Mini" onclick="location.href='/member/myBook'">
 		추천 서적	
 	</div>
-	<div class="menuListMini" id="menu4Mini" onclick="location.href='/member/myInfor'">
+	<div class="menuListMini" id="menu4Mini" onclick="location.href='/member/myInforCheck'">
 		내 정보
 	</div>
 	
