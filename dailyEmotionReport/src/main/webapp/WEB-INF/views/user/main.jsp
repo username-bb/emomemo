@@ -40,7 +40,7 @@
 		
 		<div id="contentBox">
 			
-			<div class="content" id="writeButton">작성</div>
+			<div class="content" id="writeButton" onclick="location.href='/board/writeForm'">작성</div>
 			
 			<div class="content" id="content1">내용 1</div>
 			<div class="content">내용 2</div>

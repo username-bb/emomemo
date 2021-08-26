@@ -12,13 +12,13 @@ import java.util.Properties;
 
 public class Dbconn {
 
-	private Dbconn conn = new Dbconn();
+	private static Dbconn conn = new Dbconn();
 	
 	private Dbconn() {
 		
 	}
 	
-	public Dbconn instanceOf() {
+	public static Dbconn instanceOf() {
 		return conn;
 	}
 	

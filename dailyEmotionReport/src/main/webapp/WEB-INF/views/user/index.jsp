@@ -22,11 +22,11 @@
 <body>
 
 	<div id="loginLayout">
-		<form name="userLogin" action="/member/login">
+		<form name="userLogin" action="/member/login" method="post">
 			<p><b>Hello, Here?</b></p>
-			<input type="text" name="email" placeholder="이메일" required maxlength="15" ><br>
-			<input type="password" name="pw" placeholder="비밀번호" required maxlength="15"><br>
-			<input type="submit" value="로그인">
+			<input type="text" id="email" name="email" placeholder="이메일" required maxlength="15" ><br>
+			<input type="password" id="password" name="pw" placeholder="비밀번호" required maxlength="15"><br>
+			<input type="submit" id="submitButton" value="로그인">
 			<a>회원가입</a> / <a>비밀번호 찾기</a>
 		</form>		
 	</div>

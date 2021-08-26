@@ -39,6 +39,9 @@ body{
 	left:50%;
 	transform:translate(-50%, -50%);
 	width:70%;
+
+/* 	overflow-y:auto; */
+/* 	overflow-x:hidden; */
 }
 
 
@@ -84,6 +87,7 @@ body{
 	color: #e8a798;
  	transition: 0.4s;
  	box-shadow: 2px 1px #e8a798;
+ 	text-decoration: underline;
  	
 }
 
@@ -105,7 +109,17 @@ body{
 
 @media screen and (max-width: 720px){
 	
+	
+	#totalBox{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		width:70%;
 
+	}
+	
+	
 /* 	미니메뉴 디자인 */
 	
 	#menuContainer{
@@ -140,7 +154,7 @@ body{
 	 	transition: 0.4s;
 	 	box-shadow: 2px 1px #e8a798;
 	 	height:40px;
- 	
+	 	text-decoration: underline;
 	}
 	
 	.menuListMini{
@@ -161,7 +175,7 @@ body{
 		color: #e8a798;
 	 	transition: 0.4s;
 	 	box-shadow: 2px 1px #e8a798;
-	 	
+	 	text-decoration: underline;
 	}
 	
 	#dateMini{
@@ -172,4 +186,24 @@ body{
 		height:40px;
 	}
 
+}
+
+
+
+
+@media (max-width: 550px) and (max-height: 995px){
+	
+
+	
+	#totalBox{
+		
+		margin-top:50%;
+		margin-left:50%;
+		
+		width:500px;
+		height:995px;
+		
+		overflow:auto;
+	}
+	
 }

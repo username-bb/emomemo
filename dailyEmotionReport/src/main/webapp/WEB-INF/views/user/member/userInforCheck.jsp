@@ -42,9 +42,9 @@
 		
 				<div class="content" id="content1">
 					<p id="miniTitle"><b>Hello, Here?</b></p>
-					<form name="pwCheckPlz" action="/member/myInfor">
-						<input type="password" name="pw" placeholder="비밀번호" required maxlength="15">
-						<input type="submit" value="인증" >
+					<form name="pwCheckPlz" action="/member/myInfor" method="post">
+						<input type="password" id="password" name="pw" placeholder="비밀번호" required maxlength="15">
+						<input type="submit" id="submitButton" value="인증" >
 					</form>					
 				</div>
 			</div>
